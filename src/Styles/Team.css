@@ -1,0 +1,127 @@
+
+.main-member-card-holder{
+    box-shadow: -5px 20px 20px 5px rgb(230, 224, 224);
+}
+
+.member-profile-holder{
+    display: flex;
+    flex-direction: row;
+
+    min-height: 630px;
+}
+
+.member-text{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+    /* padding-left: 200px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.member-profile-holder h1{
+    padding-top: 10px;
+    color: rgb(49, 49, 108);
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+.member-profile{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width:280px;
+    box-shadow: -5px 5px 30px 5px rgb(210, 204, 204);
+    height: 380px;
+}
+
+.footer-holder{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:1300px) {
+        .member-profile-holder{
+            display:grid;
+            grid-template-columns: 280px 280px;
+            grid-row: auto auto;
+            grid-column-gap: 40px;
+            grid-row-gap: 40px;
+            padding-bottom: 60px;
+        }
+}
+
+@media screen and (max-width:660px) {
+    .member-profile-holder{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .member-profile{
+        align-self: center;
+    }
+}
+
+.member-photo{
+    border-radius: 20px;
+    width:210px;
+    height:300px;
+}
+
+.resource-button-holder{
+    display: flex;
+    flex-direction: row;
+    /* Temperorary*/
+    padding-top: 50px;
+    height: 54vh;
+    /**/
+
+    display: flex;
+}
+.resource-button{
+    width: 250px;
+    height:37px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    margin:30px;
+}
+
+.resource-button.one{
+    background: rgb(106, 163, 220);
+    box-shadow: 5px 3px 45px 6px rgb(138, 200, 247);
+}
+.resource-button.one:hover{
+    background: rgb(70, 145, 221);
+    cursor: pointer;
+}
+
+.resource-button.two{
+    background: rgb(60, 95, 232);
+    box-shadow: 5px 3px 45px 6px rgb(123, 133, 216);
+}
+.resource-button.two:hover{
+    background: rgb(36, 76, 236);
+    cursor: pointer;
+}
+@media screen and (max-width: 650px){
+    .resource-button-holder{
+        padding-top: 0px;
+        padding-bottom: 50px;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .resource-button{
+        width: 300px;
+    }
+}
