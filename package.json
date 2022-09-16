@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mvgdc.github.io/MVGDC-Website/",
-  "name": "MVGDC-Website",
+  "homepage": "https://mvgdc.github.io/mvgdc",
+  "name": "mvgdc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
