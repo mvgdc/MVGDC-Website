@@ -35,11 +35,11 @@ const NavBar = () => {
             <div className="bar">
                 <div className="logo-holder">
                         <div className='logo'>
-                            <Link to="/mvgdc"><div className="logos"></div></Link>
+                            <Link to="/"><div className="logos"></div></Link>
                         </div>
                 </div>
                 <div className="button-holder">
-                <Link className="button" to='/mvgdc'>
+                <Link className="button" to='/'>
                         {/* <i class="bi bi-people">{" "}</i> */}
                         Home
                     </Link>
@@ -69,7 +69,7 @@ const NavBar = () => {
                         <MdClose className="close-button" onClick={handleToggle} style={{ color: "gray", width: "30px", height: "30px" }} />
                     </div>
                     <div className='menuButt-holder'>
-                        <Link className="menu-button" to='/mvgdc' onClick={closeMenu}>
+                        <Link className="menu-button" to='/' onClick={closeMenu}>
                             <i class="nav bi bi-house-door-fill"></i>Home
                         </Link>
                         <Link className="menu-button" onClick={closeMenu} to='/team'>
