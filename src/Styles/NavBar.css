@@ -43,7 +43,7 @@ img {
 
 .button-holder {
   justify-content: right;
-  padding-right: 40px;
+  padding-right: 60px;
   display: flex;
   width: 50%;
   align-items: flex-end;
@@ -149,7 +149,7 @@ Link a {
   }  */
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
   /* .logo-holder {
     padding-right: 80%;
 

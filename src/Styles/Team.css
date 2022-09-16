@@ -10,6 +10,9 @@
     min-height: 630px;
 }
 
+.member-profile:hover{
+    transform: scale(1.02);
+}
 .member-text{
     text-align: center;
     font-size: 2em;
@@ -102,6 +105,7 @@
 .resource-button.one:hover{
     background: rgb(70, 145, 221);
     cursor: pointer;
+    transform: scale(1.01);
 }
 
 .resource-button.two{
@@ -111,6 +115,7 @@
 .resource-button.two:hover{
     background: rgb(36, 76, 236);
     cursor: pointer;
+    transform: scale(1.01);
 }
 
 .resource-button.three{
@@ -119,7 +124,8 @@
 }
 
 .resource-button.three:hover{
-    background: rgb(1, 62, 84);;
+    background: rgb(1, 62, 84);
+    transform: scale(1.01);
 }
 @media screen and (max-width: 900px){
     .resource-button-holder{

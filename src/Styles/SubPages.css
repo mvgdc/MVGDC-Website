@@ -74,8 +74,12 @@
     border-radius: 20px;
     width: 350px;
     height: 125px;
-
 }
+
+.goal-holder:hover{
+    transform: scale(1.05);
+}
+
 .object-holder{
     position: absolute;
     left: 0px;
@@ -179,10 +183,17 @@
     background: rgb(238, 242, 248);
 }
 
-
+.join-holder a{
+    position: relative;
+    color: white;
+    top:-15px;
+    padding-top: 15px;
+    height: 40px;
+}
 
 .join-holder button:hover {
     background: rgb(228, 237, 250);
+    transform: scale(1.01);
 }
 
 .join-holder.questions button {
@@ -195,6 +206,7 @@
 
 .join-holder.questions button:hover {
     background: linear-gradient(to right, rgba(134, 132, 197, 0.843), #7f74e1);
+    transform: scale(1.01);
 }
 
 .join-holder.title {

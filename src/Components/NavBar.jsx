@@ -39,6 +39,10 @@ const NavBar = () => {
                         </div>
                 </div>
                 <div className="button-holder">
+                <Link className="button" to='/'>
+                        {/* <i class="bi bi-people">{" "}</i> */}
+                        Home
+                    </Link>
                     <Link className="button" to='/team'>
                         {/* <i class="bi bi-people">{" "}</i> */}
                         Team

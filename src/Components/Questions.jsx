@@ -15,11 +15,11 @@ function Questions() {
                     {/* <h6>Email: mvgamedevelopmentclub@gmail.com</h6> */}
                 </div>
 
-                <a href="mailto: mvgamedevelopmentclub@gmail.com">
+                
                     <button>
-                        Contact
+                        <a href="mailto: mvgamedevelopmentclub@gmail.com">Contact</a>
                     </button>
-                </a>
+                {/* </a> */}
             </div>
         </>
     );
