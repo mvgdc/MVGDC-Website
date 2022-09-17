@@ -320,12 +320,6 @@
     display: inline;
 }
 
-.join-holder.steps span {
-    font-size: 20px;
-    font-weight: 400;
-    color: #827ea8;
-}
-
 .join-holder span {
     font-size: 45px;
     font-weight: 800;
@@ -424,7 +418,12 @@
     }
 }
 
-.steps a:hover {
+a.unity-link{
+    top:0px;
+    color: #827ea8;
+}
+
+.unity-link:hover {
     text-decoration: underline;
     cursor: pointer;
 }

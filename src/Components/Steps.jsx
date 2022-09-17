@@ -9,7 +9,7 @@ function Steps() {
                     What you need to do next:
                 </h1>
                 <h3>
-                    Make sure to download unity as we will be using it to develop our video games. We will be using Unity as it provides a 2D and 3D platform to create video games. Here is the link to download <a href="https://unity.com/download#how-get-started" target="_blank"><span>unity</span></a>.
+                    Make sure to download unity as we will be using it to develop our video games. We will be using Unity as it provides a 2D and 3D platform to create video games. Here is the link to download <a className='unity-link' href="https://unity.com/download#how-get-started" target="_blank">unity</a>.
                 </h3>
             </div>
             <div className="image-holder">
