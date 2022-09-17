@@ -6,14 +6,17 @@ import Resources from './Pages/Resources';
 import './App.css'
 function App() {
   return (
-
-    <Router className="main">
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/resources" element={<Resources />} />
-      </Routes>
-    </Router>
+    <div className="main">
+      <Router >
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/resources" element={<Resources />} />
+        </Routes>
+      </Router>
+    </div>
+      
+    
   );
 }
 
