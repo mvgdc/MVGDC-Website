@@ -47,7 +47,7 @@ const NavBar = () => {
                         {/* <i class="bi bi-people">{" "}</i> */}
                         Team
                     </Link>
-                    <a className="button" href="https://discord.gg/ChnPDW5bzx" target="_blank">
+                    <a className="button" href="https://discord.gg/2yspHuh4wx" target="_blank">
                         {/* <i class="bi bi-discord"></i>  */}
                         Discord
                     </a>
