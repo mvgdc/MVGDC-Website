@@ -127,7 +127,6 @@
 }
 
 .image-holder{
-    width:50%;
     display: flex;
     justify-content: center;
 }
@@ -142,11 +141,10 @@
 }
 
 .holder-goals.steps {
-    width: 50%;
+    text-align: center;
 }
 
 .steps h1 {
-    padding-left: 5%;
     font-size: 25px;
     color: rgb(55, 124, 226);
     padding-bottom: 40px;
@@ -156,13 +154,12 @@
 }
 
 .steps h3 {
-    width: 60%;
+    width: 600px;
     font-size: 20px;
     font-weight: 200;
     text-align: left;
-    padding-left: 7%;
-    padding-right: 10%;
-    padding-right: 0px;
+    padding-left: 30px;
+    padding-right: 100px;
     margin-right: 0px;
     color: rgb(71, 75, 106)
 }
@@ -350,27 +347,31 @@
      }
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width:1275px) {
     .join-holder.steps{
         padding-top: 0px;
         flex-direction: column;
-        height: 500px;
+        height: 550px;
     }
     .steps h1{
-        font-size: 1.8em;
+        text-align: center;
+        font-size: 30px;
+        padding-right: 0px;
     }
     .steps h3{
-        width: 80%;
-        font-size: 1em;
+        width: 600px;
+        font-size: 20px;
         margin-bottom: 35px;
+    }
+    .steps{
+        text-align: center;
     }
 
     .join-holder.steps span{
-        font-size: 1em;
+        font-size: 20px;
         font-size: 200;
     }
     .holder-goals.steps{
-        width:  80vw;
         align-self: center;
         margin-left:0px;
         margin-right: 0px;
@@ -459,7 +460,48 @@ a.unity-link{
         height: 80px;
     }
 
+    .steps h1{
+        /* font-size: 6vw; */
+        text-align: left;
+        padding-left: 0px;
+    }
 
+    .steps h3{
+        font-size: 1.3em;
+        width: 80%;
+        padding-left: 100px;
+        text-align: center
+    }
+    .steps h1{
+        font-size: 1.5em;
+        padding-left: 60px;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 805px){
+    .goals h1{
+        height: 130px;
+    }
+     .steps h1{
+        /* font-size: 6vw; */
+        text-align: left;
+        width: 80%;
+        padding-left: 0px;
+    }
+
+    .steps h3{
+        font-size: 20px;
+        width: 80%;
+        padding-left: 40px;
+        text-align: center
+    }
+    .steps h1{
+        font-size: 30px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 435px){
@@ -469,14 +511,19 @@ a.unity-link{
      .steps h1{
         /* font-size: 6vw; */
         text-align: left;
-        width: 80vw;
+        width: 80%;
         padding-left: 0px;
     }
 
     .steps h3{
-        padding-left: 0px;
-        text-align: left;
-        width: 85vw;
+        font-size: 17px;
+        width: 80%;
+        padding-left: 40px;
+        text-align: left
+    }
+    .steps h1{
+        font-size: 21px;
+        text-align: center;
     }
 }
 

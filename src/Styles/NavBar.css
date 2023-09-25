@@ -75,7 +75,7 @@ img {
   color: white;
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, #3088d0b3, #1512c6c4);
+  background: linear-gradient(to right, #4594d6d7, #1512c6c4);
   border-radius: 0.5em;
   border: none;
   margin-bottom: 1.4em;
@@ -321,7 +321,34 @@ Link a {
   background: linear-gradient(to right, #392de9d7, #2a8ade);
 }
 
-i {
+.bi.bi-house-door-fill{
+  color: white;
+  background: linear-gradient(to top, #5c52edd7, #56a6eb);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.bi.bi-people{
+  color: white;
+  background: linear-gradient(to top, #5c52edd7, #56a6eb);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.bi.bi-discord{
+  color: white;
+  background: linear-gradient(to top, #5c52edd7, #56a6eb);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.bi.bi-file-earmark{
   color: white;
   background: linear-gradient(to top, #5c52edd7, #56a6eb);
   padding: 10px;
@@ -335,4 +362,33 @@ i {
   .menuNav {
     width: 0%;
   }
+}
+
+.bi.bi-code{
+  color: white;
+  background: linear-gradient(to top, #5c52edd7, #56a6eb);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.bi.bi-steam{
+  color: white;
+  background: linear-gradient(to top, #5c52edd7, #56a6eb);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.bi.bi-controller{
+  color: white;
+  background: linear-gradient(to top, #5c52edd7, #56a6eb);
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+  margin-right: 10px;
+  font-size: 20px;
 }

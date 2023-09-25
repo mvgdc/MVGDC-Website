@@ -10,6 +10,12 @@
     min-height: 630px;
 }
 
+.bi.bi-unity{
+    color: black;
+    font-size: 30px;
+    background: beige;
+}
+
 .member-profile:hover{
     transform: scale(1.02);
 }
@@ -80,54 +86,63 @@
     flex-direction: row;
     /* Temperorary*/
     padding-top: 50px;
-    height: 54vh;
     /**/
 
     display: flex;
 }
 .resource-button{
-    width: 250px;
-    height:37px;
+    width: 500px;
+    height:220px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* font-family: sans-serif; */
     border-radius: 15px;
     text-decoration: none;
     text-align: center;
-    padding-top: 15px;
-    color: white;
+    border: 1px solid rgb(237, 235, 235);
+    color: rgb(127, 122, 122);
     font-weight: 400;
-    border: none;
+
     margin:30px;
 }
 
 .resource-button.one{
-    background: rgb(106, 163, 220);
-    box-shadow: 5px 3px 45px 6px rgb(138, 200, 247);
+    transition: all 0.2s ease-in-out;
+    background: rgb(255, 255, 255);
 }
 .resource-button.one:hover{
-    background: rgb(70, 145, 221);
+    /* background: rgb(245, 247, 249); */
     cursor: pointer;
-    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+    /* transform: scale(1.01); */
+    box-shadow: 2px 1px 18px 1px rgb(222, 224, 224);
+    
 }
 
 .resource-button.two{
-    background: rgb(60, 95, 232);
-    box-shadow: 5px 3px 45px 6px rgb(123, 133, 216);
+    transition: all 0.2s ease-in-out;
+    background: rgb(255, 255, 255);
 }
 .resource-button.two:hover{
-    background: rgb(36, 76, 236);
     cursor: pointer;
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 1px 18px 1px rgb(222, 224, 224);
 }
 
 .resource-button.three{
-    background: rgb(0, 94, 128);
-    box-shadow: 5px 3px 45px 6px rgb(141, 225, 255);;
+    transition: all 0.2s ease-in-out;
+    background: rgb(255, 255, 255);
 }
 
 .resource-button.three:hover{
-    background: rgb(1, 62, 84);
-    transform: scale(1.01);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    /* transform: scale(1.01); */
+    box-shadow: 2px 1px 18px 1px rgb(222, 224, 224);
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1100px){
     .resource-button-holder{
         padding-top: 0px;
         padding-bottom: 50px;
@@ -137,14 +152,56 @@
         flex-direction: column;
     }
     .resource-button{
-        width: 300px;
-        height: 40px;
+        width: 500px;
+        height: 220px;
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
     .resource-button{
-        /* padding-top: 15px;
-        padding-bottom: 15px; */
+        width: 300px
     }
+}
+
+
+.icon-holder-r{
+    padding-top: 11px;
+    display: flex;
+    width: 50px;
+    height: 41px;
+    border-radius: 13px;
+    background: linear-gradient(to right, #e59d32, #ea4e15);
+}
+
+.icon-holder-g{
+    padding-top: 12px;
+    display: flex;
+    width: 50px;
+    height: 40px;
+    border-radius: 13px;
+    background: linear-gradient(to right, hsla(267, 79%, 56%, 0.843), #6b3dbc);
+}
+
+.icon-holder-p{
+    padding-top: 13px;
+    display: flex;
+    width: 50px;
+    height: 39px;
+    border-radius: 13px;
+    background: linear-gradient(to right, #20c781, #0fa02e);
+}
+
+.breif-des h2{
+    padding-top: 20px;
+    font-weight: 800;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+.breif-des h4{
+    padding-top: 20px;
+    font-weight: 200;
+    text-align: left;
+    color: black;
+    font-size: 17px;
 }
