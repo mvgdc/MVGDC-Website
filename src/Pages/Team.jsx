@@ -16,10 +16,10 @@ function Team(){
             <div className="main-member-card-holder">
                 <h1 className="member-text">Our Officer Team</h1>
                 <div className="member-profile-holder">
-                    <Card name="Aaron Chan" position = "Officer" img={AaronPhoto}/>
-                    <Card name="Andrew Liu" position = "Officer" img={AndrewPhoto}/>
-                    <Card name="Harsha Malaviya" position = "Officer" img={HarshaPhoto}/>
-                    <Card name="Petros Mzikyan" position="Officer" img={PetrosPhoto}/>
+                    <Card name="Aaron Chan" position = "President" img={AaronPhoto}/>
+                    <Card name="Andrew Liu" position = "Vice President" img={AndrewPhoto}/>
+                    <Card name="Harsha Malaviya" position = "Vice President" img={HarshaPhoto}/>
+                    <Card name="Petros Mzikyan" position="Secretary" img={PetrosPhoto}/>
                 </div>
             </div>
             <div className="footer-holder">
