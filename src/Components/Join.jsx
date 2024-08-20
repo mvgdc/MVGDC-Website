@@ -10,7 +10,7 @@ function Join() {
                 <span className="join">{"Join MVGDC Today!"}</span>
             </div>
             <button>
-                <a style={{color:"gray"}}href="https://docs.google.com/forms/d/e/1FAIpQLSd9Ldq3j7LN2PVrBcEQ4YXU95CEwgJH29wGlp_KsIvhZfq7Ag/viewform?usp=sf_link" target="_blank" >
+                <a style={{color:"gray"}}href="https://docs.google.com/forms/d/1dvDJFr6Ds-1Jx9bVSrYZFMlXA7O7iBRAcM5izbR0kG4/viewform?edit_requested=true" target="_blank" >
                 Sign up
                 </a>
             </button>
