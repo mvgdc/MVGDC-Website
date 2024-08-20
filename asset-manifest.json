@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1102fe88.css",
+    "main.js": "/static/js/main.8ca895f1.js",
+    "static/media/HarshaMalaviya.jpg": "/static/media/HarshaMalaviya.65fc6a3ab3ded96e24e8.jpg",
+    "static/media/PetrosMzikyan.jpg": "/static/media/PetrosMzikyan.a95391bc2b724151b51a.jpg",
+    "static/media/home.png": "/static/media/home.95ffb5acf7001b57caeb.png",
+    "static/media/AaronChan.jpeg": "/static/media/AaronChan.c200e6e7fac98fe7b563.jpeg",
+    "static/media/AndrewLiu.jpg": "/static/media/AndrewLiu.d2b13ba0a20502b47959.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/logo.png": "/static/media/logo.021bbe93fa767930e80a.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/text-logo.png": "/static/media/text-logo.53491aad36eaf3ed6ae4.png",
+    "static/media/burger.png": "/static/media/burger.30796285292acaba1116.png",
+    "static/media/Resources.jpeg": "/static/media/Resources.4cce4f0cc4380ff203cf.jpeg",
+    "static/media/codeImage.webp": "/static/media/codeImage.cb30eb14ce131f4dc85f.webp",
+    "index.html": "/index.html",
+    "main.1102fe88.css.map": "/static/css/main.1102fe88.css.map",
+    "main.8ca895f1.js.map": "/static/js/main.8ca895f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1102fe88.css",
+    "static/js/main.8ca895f1.js"
+  ]
+}
