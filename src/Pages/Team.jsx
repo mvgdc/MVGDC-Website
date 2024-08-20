@@ -5,6 +5,10 @@ import AaronPhoto from "../Images/MemberPhotos/AaronChan.jpeg";
 import AndrewPhoto from "../Images/MemberPhotos/AndrewLiu.jpg";
 import HarshaPhoto from "../Images/MemberPhotos/HarshaMalaviya.jpg";
 import PetrosPhoto from "../Images/MemberPhotos/PetrosMzikyan.jpg";
+import AaronPhoto from "../Images/MemberPhotos/AaronChan.jpeg";
+import AndrewPhoto from "../Images/MemberPhotos/AndrewLiu.jpg";
+import HarshaPhoto from "../Images/MemberPhotos/HarshaMalaviya.jpg";
+import PetrosPhoto from "../Images/MemberPhotos/PetrosMzikyan.jpg";
 import '../Styles/Team.css'
 import Footer from '../Components/Footer'
 
@@ -30,4 +34,4 @@ function Team(){
 
 }
 
-export default Team;
+export default Team; 
